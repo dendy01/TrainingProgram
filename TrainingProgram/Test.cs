@@ -1,17 +1,20 @@
+using TrainingProgram;
+
 namespace TestApp
 {
     public class Test
     {
         public static void InitWithFile()
         {
-            Table table = new Table("table.csv");
+            Table table = new Table("../../../table.csv");
 
             table.Print();
 
 
             Console.WriteLine(table["name", 3]);
-            Console.WriteLine(table["age", 5]);
+            Console.WriteLine(table["age", 4]);
         }
+
         public static void InitRandom()
         {
             Table table = new Table(5, 10);
