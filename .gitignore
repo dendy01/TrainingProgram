@@ -1,0 +1,4 @@
+.vs/*
+TrainingProgram/bin/*
+TrainingProgram/obj/*
+TrainingProgram/TrainingProgram.csproj.user
